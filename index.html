@@ -3,127 +3,158 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>theme 33</title>
+    <title>Theme 12</title>
  
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
- 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
+<link href="http://fonts.cdnfonts.com/css/fortyseven-micro-nbp" rel="stylesheet">
  
 <style>
  
 body{
-background-color: #D6D0C8;
-background-image: url(https://i.imgur.com/Wg5ki1C.png);
-margin-top: 0px;
+background-color: #fff7fb;
+font-family: 'FortySeven Micro NBP', sans-serif;
 }
  
-#all{
-width: 660px;
-position: relative;
-left: 10%;
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 800px;
+margin: 0 auto;
+border: 1px solid #ff668a;
+padding: 3px;
+}
+ 
+#box{
+width: 800px;
+background-color: #fff7fb;
+color: #000;
+border: 1px solid #ff668a;
 }
  
 #header{
-background-image: url('https://i.imgur.com/jupbmhn.png');
-background-color: #4E4B44;
-color: #d9d3c5;
-font-family: 'Special Elite', serif;
-border-radius: 0px 0px 7px 7px;
-width: 460px;
-height: 105px;
-margin-left: 12px;
-box-shadow: 5px 5px #302A27;
+margin-bottom: 10px;
+padding: 10px;
+border-bottom: 1px solid #ff668a;
+background-image: linear-gradient(to right, #ff668a, #ffbfce);
+color: #fff;
+letter-spacing: 3px;
 }
  
 #header h1{
 margin: 0px;
-font-weight: normal;
-text-align: center;
-font-size: 40px;
-line-height: 105px;
-text-shadow: 3px 3px #302A27;
 }
  
-#img{
-background-image: url('https://i.imgur.com/qnZzOWz.png');
-position: absolute;
-top: 10px;
-right: 0px;
-width: 175px;
-height: 175px;
-z-index: 2;
+#side{
+float: left;
+width: 145px;
+padding: 0px 0px 5px 10px;
+overflow: hidden;
 }
  
-#maincontainer{
-width: 520px;
+.sidebox{
+border: 1px solid #ff668a;
+margin: 0px 0px 5px 0px;
 }
  
-.postcontainer{
-width: 520px;
-position: relative;
-top: 10px;
-color: #302A27;
-}
- 
-.icon{
-width: 100px;
-height: 100px;
-box-shadow: 4px 4px #4E4B44;
-position: absolute;
-top: -45px;
-z-index: 3;
-}
- 
-.post{
-background-image: url(https://i.imgur.com/bm02JPx.png);
-background-color: #faf7f5;
-width: 480px;
-box-shadow: 5px 5px #302A27;
-margin-top: 55px;
-margin-left: 35px;
-}
- 
-.subheaders{
-text-align: right;
-padding: 5px 5px 0px 0px;
-margin: 0px;
-font-weight: normal;
-font-family: 'Special Elite', serif;
-font-size: 20px;
- 
-}
- 
-.date{
-text-align: right;
-padding: 0px 5px 0px 0px;
-margin: 0px;
-font-weight: normal;
-font-family: 'Special Elite', serif;
-font-size: 14px;
-text-decoration: underline;
-text-decoration-style: dashed;
-}
- 
-.posttext{
-padding: 15px;
-text-align: justify;
+.sidecontent{
+padding: 0px 0px 0px 5px;
+color: #6e5057;
+font-size: 17px;
 letter-spacing: 1px;
 }
  
+.sidecontent ul, li{
+margin: 0px;
+list-style-type: none;
+padding-left: 0px;
+}
+ 
+a{
+text-decoration: none;
+color: #ff668a;
+}
+ 
+a:visited{
+color: #ff668a;
+}
+ 
+a:hover{
+text-shadow: 0px 0px 2px #78beff;
+}
+ 
+#scrollcontainer{
+padding: 5px;
+}
+ 
+#scrolly{
+overflow: scroll;
+overflow-x: hidden;
+width: 110px;
+height:110px;
+border: 1px solid #ff668a;
+margin: 0 auto;
+text-align: center;
+}
+ 
+#scrollyheader{
+margin: 0px;
+border-bottom: 1px dotted #ff668a;
+}
+ 
+#main{
+float: right;
+width: 624px;
+overflow: hidden;
+padding: 0px 10px 5px 0px;
+}
+ 
+.mainboxes{
+border: 1px solid #ff668a;
+padding: 0px;
+margin: 0px 0px 5px 0px;
+}
+ 
+.subheader{
+background-image: linear-gradient(to right, #ff668a, #ffbfce);
+border-bottom: 1px solid #ff668a;
+padding: 3px;
+color: #fff;
+letter-spacing: 3px;
+}
+ 
+.subheader h3{
+margin: 0px;
+}
+ 
+.mainboxescontent{
+padding: 0px 15px 0px 15px;
+color: #6e5057;
+font-size: 17px;
+}
+ 
+#footer{
+clear: both;
+padding: 3px;
+border-top: 1px solid #ff668a;
+background-image: linear-gradient(to right, #ff668a, #ffbfce);
+color: #fff;
+font-size: 14px;
+}
+ 
+#footer p{
+margin: 0px;
+}
+ 
 ::-webkit-scrollbar{
-width: 6px; 
+width: 8px; 
 }
  
 ::-webkit-scrollbar-track{
-background-color: #302a27;
+background-color: #fff7fb;
 }
  
 ::-webkit-scrollbar-thumb{
-background-color: #615955;
+background-color: #ff668a;  
 }
  
 #credit{
@@ -133,141 +164,147 @@ bottom: 0;
 right: 0;
 }
  
-#nav{
-position: fixed;
-top: 0px;
-right: 7%;
-width: 145px;
-background-image: url('https://i.imgur.com/jupbmhn.png');
-background-color: #4E4B44;
-border-radius: 0px 0px 7px 7px;
-text-align: center;
-font-family: 'Special Elite', serif;
-box-shadow: 2px 3px #302A27;
-}
- 
-ul{
-padding: 0px;
-margin: 0px;
-}
- 
-li{
-list-style-type: none;
-margin: 7px 0;
-text-shadow: 2px 2px #302A27;
-}
- 
-a{
-color: #d9d3c5;
-text-decoration: none;
-}
- 
-a:visited{
-color: #d9d3c5;
-}
- 
-a:hover{
-color: #d9d3c5;
-font-style: italic;
-}
- 
-a:active{
-color: #d9d3c5;
-font-style: italic;
-font-weight: bold;
-}
- 
 </style>
  
 </head>
  
 <body>
  
-<div id="all">
+<div id="container">
  
-<div id="header">
-<h1>Kiso's Portfolio</h1>
-</div>
+<div id="box">
  
-<div id="img">
-<!-- refer to '#img' in CSS; 175x175px -->
-</div>
+<div id="header"><h1>Welcome</h1></div>
  
-<div id="maincontainer">
+<div id="side">
  
-<div class="postcontainer">
+<div class="sidebox">
  
-<div class="icon">
-<img src="https://i.imgur.com/Ln3osFy.png"> <!-- 100x100px -->
-</div>
+<div class="subheader"><h3>Navigate</h3></div>
  
-<div class="post">
-<h2 class="subheaders">Header Here</h2>
-<p class="date">date: 5/13/2022</p>
-<div class="posttext">
-<p style="margin-top: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor enim nec congue rhoncus. Sed ultricies, ex ornare finibus imperdiet, purus libero mollis tortor, vel pellentesque lectus felis at mauris. Sed eu leo dui. Quisque quis elementum nunc.</p>
+<div class="sidecontent">
  
-<p>Aenean semper lacus risus. Maecenas consectetur ipsum ut urna bibendum pellentesque ac quis velit. Vestibulum id interdum dolor, at vestibulum enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet posuere erat. Suspendisse vel ornare dui, sed feugiat ex. Mauris euismod, tellus et imperdiet feugiat, massa augue sagittis velit, egestas fermentum lectus dui pharetra leo. Praesent in tellus ex.</p>
+<!-- LINK BOX 1 -->
  
-<p>Nulla facilisi. Mauris tempor dolor ut tempor rhoncus. Morbi non lorem eu erat commodo.</p>
-</div>
-</div>
-</div>
- 
-<div class="postcontainer">
- 
-<div class="icon">
-<img src="https://i.imgur.com/Ln3osFy.png">
-</div>
- 
-<div class="post">
-<h2 class="subheaders">header here</h2>
-<p class="date">date: 5/13/2022</p>
-<div class="posttext">
-<p style="margin-top:5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor enim nec congue rhoncus. Sed ultricies, ex ornare finibus imperdiet, purus libero mollis tortor, vel pellentesque lectus felis at mauris. Sed eu leo dui. Quisque quis elementum nunc.</p>
- 
-<p>Aenean semper lacus risus. Maecenas consectetur ipsum ut urna bibendum pellentesque ac quis velit. Vestibulum id interdum dolor, at vestibulum enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet posuere erat. Suspendisse vel ornare dui, sed feugiat ex. Mauris euismod, tellus et imperdiet feugiat, massa augue sagittis velit, egestas fermentum lectus dui pharetra leo. Praesent in tellus ex.</p>
- 
-<p>Nulla facilisi. Mauris tempor dolor ut tempor rhoncus. Morbi non lorem eu erat commodo.</p>
-</div>
-</div>
-</div>
- 
-<div class="postcontainer">
- 
-<div class="icon">
-<img src="https://i.imgur.com/Ln3osFy.png">
-</div>
- 
-<div class="post">
-<h2 class="subheaders">header here</h2>
-<p class="date">date: 5/13/2022</p>
-<div class="posttext">
-<p style="margin-top: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor enim nec congue rhoncus. Sed ultricies, ex ornare finibus imperdiet, purus libero mollis tortor, vel pellentesque lectus felis at mauris. Sed eu leo dui. Quisque quis elementum nunc.</p>
- 
-<p>Aenean semper lacus risus. Maecenas consectetur ipsum ut urna bibendum pellentesque ac quis velit. Vestibulum id interdum dolor, at vestibulum enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet posuere erat. Suspendisse vel ornare dui, sed feugiat ex. Mauris euismod, tellus et imperdiet feugiat, massa augue sagittis velit, egestas fermentum lectus dui pharetra leo. Praesent in tellus ex.</p>
- 
-<p>Nulla facilisi. Mauris tempor dolor ut tempor rhoncus. Morbi non lorem eu erat commodo.</p>
-</div>
-</div>
-</div>
- 
-</div>
- 
-</div>
- 
-<div id="nav">
 <ul>
-<li><a href="URL HERE">home</li>
-<li><a href="URL HERE">about</li>
-<li><a href="URL HERE">photos</li>
-<li><a href="URL HERE">blog</li>
-<li><a href="URL HERE">links</li>
-<li><a href="URL HERE">other</li>
+<li><a href="">⊳ Link 1</a></li>
+<li><a href="">⊳ Link 2</a></li>
+<li><a href="">⊳ Link 3</a></li>
+<li><a href="">⊳ Link 4</a></li>
+<li><a href="">⊳ Link 5</a></li>
 </ul>
+ 
+<!-- END LINK BOX 1 -->
+ 
+</div>
 </div>
  
-<div id="credit"><a href="https://repth.neocities.org/index.html">©repth</a></div>
+<div class="sidebox">
+ 
+<div class="subheader"><h3>Sub Header</h3></div>
+ 
+<div class="sidecontent">
+ 
+<!-- LINK BOX 2 -->
+ 
+<ul>
+<li><a href="">⊳ Link 1</a></li>
+<li><a href="">⊳ Link 2</a></li>
+<li><a href="">⊳ Link 3</a></li>
+<li><a href="">⊳ Link 4</a></li>
+<li><a href="">⊳ Link 5</a></li>
+</ul>
+ 
+<!-- END LINK BOX 2 -->
+ 
+</div>
+</div>
+ 
+<div class="sidebox">
+ 
+<div class="subheader"><h3>Other</h3></div>
+ 
+<div class="sidecontent" id="scrollcontainer">
+ 
+<div id="scrolly">
+ 
+<!-- SCROLLBOX CONTENT -->
+ 
+<p id="scrollyheader">Hello</p>
+<div id="scrollycontent" style="padding:5px;">
+ 
+<img src="https://i.imgur.com/PfbykXz.jpg" style="width:100%;"><img>
+<img src="https://i.imgur.com/1HTWphx.gif" style="width:100%;"><img>
+<img src="https://i.imgur.com/Mt4iG9J.png" style="width:100%;"><img>
+<img src="https://i.imgur.com/hOOVOkf.gif" style="width:100%;"><img>
+ 
+<!-- END SCROLLBOX CONTENT -->
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+<div id="main">
+ 
+<div class="mainboxes">
+ 
+<div class="subheader"><h3>Header</h3></div>
+ 
+<div class="mainboxescontent">
+ 
+<!-- REPLACE CONTENT BELOW WITH YOUR OWN -->
+ 
+<p style="clear:right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et orci sit amet nunc fringilla rutrum. Aliquam finibus ipsum nec orci dignissim, id luctus dolor semper. Phasellus dictum mauris ut neque molestie hendrerit. Vestibulum at neque purus. 
+ 
+<img src="https://i.imgur.com/bExQthf.gif" style="float:left;margin:5px;"><img>
+ 
+Cras est sapien, ultricies ut vulputate id, pellentesque malesuada arcu. Vestibulum efficitur quam in elit cursus vehicula. Praesent in tellus nisl. Vestibulum a massa lorem. Phasellus placerat velit sed feugiat pharetra.</p>
+ 
+<p>Nulla vel ipsum odio. Integer hendrerit dui id enim porta, in dapibus elit sollicitudin. Vestibulum efficitur quam in elit cursus vehicula. Vestibulum at neque purus. Cras est sapien, ultricies ut vulputate id, pellentesque malesuada arcu.</p>
+ 
+<!-- END CONTENT -->
+ 
+</div>
+ 
+</div>
+ 
+<div class="mainboxes">
+ 
+<div class="subheader"><h3>Header</h3></div>
+ 
+<div class="mainboxescontent">
+ 
+<!-- REPLACE CONTENT BELOW WITH YOUR OWN -->
+<p style="clear:left;">Maecenas et imperdiet odio. Ut nec lorem aliquam, maximus diam id, bibendum lorem. Suspendisse sit amet semper justo. Proin venenatis, neque vitae accumsan dignissim, mauris sem feugiat augue, et congue arcu massa eget dui. 
+ 
+<img src="https://i.imgur.com/YNX2Ih9.gif" style="float:right;margin:5px;"><img>
+ 
+Sed sit amet purus sapien. Sed porttitor vel enim sit amet aliquam. Aenean ornare nisi et viverra venenatis. Sed at sem nunc. Nulla vel ipsum odio. Integer hendrerit dui id enim porta, in dapibus elit sollicitudin.</p>
+ 
+<p style="clear:left";>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et orci sit amet nunc fringilla rutrum. Aliquam finibus ipsum nec orci dignissim, id luctus dolor semper. Phasellus dictum mauris ut neque molestie hendrerit. Vestibulum at neque purus. Cras est sapien, ultricies ut vulputate id, pellentesque malesuada arcu. Vestibulum efficitur quam in elit cursus vehicula. Praesent in tellus nisl. Vestibulum a massa lorem. Phasellus placerat velit sed feugiat pharetra.</p>
+ 
+<!-- END CONTENT -->
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="footer"><p>Footer 2021</p></div>
+ 
+</div>
+ 
+</div>
+ 
+<div id="credit"><a href="https://repth.neocities.org/index.html">@Repth</a></div>
  
 </body>
  
